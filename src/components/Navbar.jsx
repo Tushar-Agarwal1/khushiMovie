@@ -74,12 +74,12 @@ function Navbar() {
             >
               LogOut
             </button>
-            <Link to='/watchlist' className="btn">WatchList</Link>
+            <Link to='/#/watchlist' className="btn">WatchList</Link>
           </>
         ) : (
           <>
-            <Link to='/signup' className="btn">Sign Up</Link>
-            <Link to='/login' className="btn">Login</Link>
+            <Link to='/#/signup' className="btn">Sign Up</Link>
+            <Link to='/#/login' className="btn">Login</Link>
           </>
         )}
       </div>

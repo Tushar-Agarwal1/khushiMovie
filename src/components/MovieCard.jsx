@@ -50,7 +50,7 @@ const MovieCard = ({ movie }) => {
                 <span>{movie.Type}</span> 
                 <h3>{movie.Title}</h3> 
               
-                <Link to={`/info/${movie.imdbID}`} className='button'>View</Link>
+                <Link to={`/#/info/${movie.imdbID}`} className='button'>View</Link>
                 {!isAdded ? (
 
                     <button className='button' onClick={() => addToWatchlist(movie.imdbID)}>+ WatchList</button>
