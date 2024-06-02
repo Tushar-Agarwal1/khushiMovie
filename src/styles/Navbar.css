@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    top: 3rem;
+    left: 18rem;
+    font-weight: bold;
+    font-size: 3rem; 
+    letter-spacing: 0.9px; 
+    background: linear-gradient(90deg, 
+            rgb(236, 160, 54) 0%, 
+            rgba(249, 211, 180, 0.279) 100%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    width: fit-content; 
+  }
+
+  
+  .navbar-buttons {
+    position: absolute;
+    top: 1.5rem;
+    right: 18rem;
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .btn {
+
+    padding: 8px 16px;
+    background-color: #d18418; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #eab347; 
+  }
+ 
+  
+@media screen and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 2.5rem; 
+    left: 10%; 
+  }
+  
+  .navbar-buttons {
+    right: 10%; 
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    font-size: 2rem;  
+    left: 5%; 
+  }
+  
+  .navbar-buttons {
+    right: 5%; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;  
+    left: 2rem; 
+  }
+  
+  .navbar-buttons {
+    right: 2rem; 
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;  
+    left: 1rem; 
+  }
+  
+  .navbar-buttons {
+    right: 1rem; 
+  }
+}
