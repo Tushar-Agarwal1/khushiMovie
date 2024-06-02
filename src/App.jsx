@@ -13,10 +13,10 @@ const App = () => {
         <BrowserRouter className="app">
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/info/:id' element={<MovieInfo />} />
-                <Route path='/signup' element={<Register />} />
-                <Route path='/login' element={<Login />} />
-                <Route path='/watchlist' element={<WatchList />} />
+                <Route path='/#/info/:id' element={<MovieInfo />} />
+                <Route path='/#/signup' element={<Register />} />
+                <Route path='/#/login' element={<Login />} />
+                <Route path='/#/watchlist' element={<WatchList />} />
             </Routes>
             <Toaster />
         </BrowserRouter>
